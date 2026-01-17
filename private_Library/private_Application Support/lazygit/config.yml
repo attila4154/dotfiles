@@ -1,0 +1,9 @@
+customCommands:
+  - key: '<c-g>'
+    context: 'global'
+    command: 'gh pr view -w || gh pr create --web'
+
+git:
+  paging:
+    colorArg: always
+    pager: delta --paging=never --line-numbers --features=mellow-barbet

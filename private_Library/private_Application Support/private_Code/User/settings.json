@@ -1,0 +1,64 @@
+{
+  "files.insertFinalNewline": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSave": "afterDelay",
+  "workbench.editor.showTabs": "none",
+  "window.zoomLevel": 1,
+  "workbench.sideBar.location": "right",
+  "editor.minimap.enabled": false,
+  "workbench.iconTheme": "file-icons",
+  "catppuccin.italicKeywords": false,
+  "catppuccin.italicComments": false,
+  "editor.fontFamily": "\"Cascadia Code Light\", \"JetBrains mono extralight\", \"Cascadia Code Light\",  monospace, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  "todohighlight.isCaseSensitive": false,
+  "todohighlight.keywords": [
+    {
+      "text": "TODO,LOCAL",
+      "color": "#ffffff",
+      "backgroundColor": "#219ebc",
+      "borderRadius": "4px",
+      "border": "1px solid #219ebc"
+    },
+    {
+      "text": "TODO:",
+      "color": "#ffffff",
+      "backgroundColor": "#FF8F8F",
+      "borderRadius": "4px",
+      "border": "1px solid #FF8F8F"
+    }
+  ],
+  "editor.rulers": [120],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "git.blame.statusBarItem.enabled": true,
+  "terminal.integrated.fontFamily": "'JetBrains Mono extralight', 'Symbols Nerd Font Mono'",
+  "sonarlint.automaticAnalysis": true,
+  "sonarlint.focusOnNewCode": false,
+  "terminal.integrated.fontSize": 14,
+  "editor.guides.indentation": false,
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.productIconTheme": "fluent-icons",
+  "terminal.external.osxExec": "Wezterm.app",
+  "git.blame.editorDecoration.enabled": false,
+  "jestrunner.debugOptions": {
+    "jestrunner.jestCommand": "NODE_OPTIONS=--experimental-vm-modules npm run test --"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "Kanagawa",
+  "explorer.confirmDelete": false,
+  "claudeCode.preferredLocation": "panel",
+  "editor.formatOnSave": true
+}
