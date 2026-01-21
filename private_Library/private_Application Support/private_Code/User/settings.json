@@ -60,5 +60,8 @@
   "workbench.colorTheme": "Kanagawa",
   "explorer.confirmDelete": false,
   "claudeCode.preferredLocation": "panel",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.color": "rgba(250, 240, 170, 0.2)",
+  "vim.hlsearch": true
 }
