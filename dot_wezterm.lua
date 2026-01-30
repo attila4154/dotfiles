@@ -36,6 +36,20 @@ config.keys = {
 	{ key = "UpArrow", mods = "CTRL|SHIFT", action = act.ScrollByLine(-5) },
 	{ key = "DownArrow", mods = "CTRL|SHIFT", action = act.ScrollByLine(5) },
 	{ key = "Enter", mods = "SHIFT", action = wezterm.action({ SendString = "\x1b\r" }) },
+	{ key = "p", mods = "CMD", action = wezterm.action.ShowTabNavigator },
+	{ key = "p", mods = "CMD|SHIFT", action = wezterm.action.ShowLauncher },
+	{
+		key = "E",
+		mods = "CMD|SHIFT",
+		action = wezterm.action.PromptInputLine({
+			description = "Enter new name for tab",
+			action = wezterm.action_callback(function(window, _, line)
+				if line then
+					window:active_tab():set_title(line)
+				end
+			end),
+		}),
+	},
 }
 
 return config
